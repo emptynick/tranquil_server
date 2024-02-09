@@ -1,0 +1,1 @@
+# Tranquil server for Home Assistant

@@ -1,0 +1,23 @@
+  {
+    "slug": "tranquil_server",
+    "name": "Tranquil Server",
+    "version": "0.0.1",
+    "url": "https://github.com/emptynick/tranquil-server",
+    "stage": "stable",
+    "description": "Serves images for the Tranquil sand table",
+    "arch": [
+      "armhf",
+      "armv7",
+      "aarch64",
+      "amd64",
+      "i386"
+    ],
+    "startup": "services",
+    "boot": "auto",
+    "ports": {
+      "8056/tcp": 8056
+    },
+    "ports_description": {
+      "8056/tcp": "Tranquil Server Web Interface"
+    }
+  }
